@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;0,400;1,400;1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'poppins';
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+/*inserindo comentarios*/
+
+.top{
+    background-color: rgb(194, 194, 194);
+    height: 50px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 425px;
+    border: 5px solid red;
+}
+
+.idioma{
+    margin-right: 20px; 
+    border: 3px solid hotpink;
+}
+
+header{
+    border: 8px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 425px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+.logo {
+    height: 120px;
+    width:300px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 30px;
+        
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    
+    main{
+        background-image: url(../img/foto\ aerea\ sp.jpg);
+        background-repeat: no-repeat;
+        background-attachment: cover;
+        background-size: cover;
+        width: 425px;
+        min-height: 100%;
+        opacity: 0.8;
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        border: 8px solid aliceblue;
+    }
+
+    .cabecalho{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        background-color: #e5e5e571; 
+        flex-direction: column;
+        width: 80%;
+        height: 250px;
+        margin-top: 60px;
+        gap:5px;          
+            
+    }
+    
+    .botaox {
+        margin-top: 10px;
+        width: 150px;
+        height: 25px;
+        background-color: rgb(194, 194, 194);
+        font-size: 0.5rem;
+        font-weight: bold;       
+        
+      }
+    
+    .titulo{
+      display: flex;
+      font-size: 0.8rem;    
+    }
+
+    .subtitulo{
+      text-align: center;
+      display: flex;
+      align-items: center;
+      font-size: 0.6rem; 
+    }
+
+    .noticias {
+        text-align: center;
+        align-items: center;
+        height: 70px;
+        width: 425px;
+        background-color: white;
+        border: 10px solid;
+        display: flex;
+        justify-content: center;
+        font-size: 0.8rem;        
+    }
+
+    .container-pai {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border: 8px solid blue;
+        width: 425px;
+    }
+
+    .cards {
+        background-color: #e5e5e5;
+        width: 70%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 16px 16px 0px 0px;
+        border: 6px solid pink;
+        margin: 10px;
+        gap:5px;
+    }
+
+    .bkg-image{
+        width: 374px;
+        height: 180px;
+        border-radius: 16px 16px 0px 0px;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    p{
+        text-align: center;
+        font-size: 0.8rem;
+        padding: 10px;
+        flex-grow: 1;
+     }
+
+     .botao {
+        width: 100px;
+        height: 30px;
+        background-color: rgb(194, 194, 194);
+        align-self: center;
+        margin-bottom: 50px;        
+      }  
+
+      .logotipos{
+        width: 425px;
+        height: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: pink;
+        border: 10px solid;
+      }
+
+      .logox{
+          width:95%;
+          height: auto; 
+      }
+
+      .video{
+        border: 8px solid blue;
+        width: 425px;
+        background-color: rgba(194, 194, 194, 0.418);
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        gap: 20px;
+      }
+    
+    .texto-video{
+        text-align: center;
+    }
+
+    footer{
+        width: 425px;
+        height: 100px;
+        background-color: rgba(255, 0, 0, 0.842);
+        border: 5px solid;
+            
+    }
+    
+    .rodape{
+        border: 5px solid pink;
+        width: 425px;
+        height: 40px;
+        background-color: rgb(194, 194, 194);
+        padding-top: 5px;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    @media (min-width:425px){
+        
+        
+    }
+    
+
+
+       
+
+    
+    
+
+
+
+
